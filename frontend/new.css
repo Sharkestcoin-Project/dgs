@@ -1,0 +1,15 @@
+
+.form__label {
+    z-index: 100;
+    position: absolute;
+    font-size: 8px;
+    top: 16px;
+    left: 20px;
+    font-weight: 600;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    pointer-events: none;
+    opacity: 0;
+    text-transform: uppercase;
+  }

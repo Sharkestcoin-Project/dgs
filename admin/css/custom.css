@@ -1,0 +1,76 @@
+.single-modal img {
+    max-width: 85% !important;
+}
+
+textarea.form-control {
+    height: 80px !important;
+}
+
+.is-invalid {
+    color: #EE2D41 !important;
+}
+
+label.required:after {
+    content:" *";
+    color:red;
+}
+label.optional:after {
+    content:" (optional)";
+    color: #6b6b6b;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    margin-right: 40px!important;
+    margin-top: 7px!important;
+}
+
+.tasks-body {
+    max-height: 500px; height: 500px;
+}
+
+.notification-content {
+    max-height: 350px !important;
+    height: unset !important;
+}
+
+label.custom-label {
+    border: 3px dotted #e0e2f0;
+    padding: 50px 0px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+label.custom-label i {
+    font-size: 40px;
+}
+
+.product-show table th {
+    background-color: #FFF !important;
+}
+
+textarea.codes {
+    height: 190px !important;
+}
+
+.custom-switch {
+    padding-left: 0;
+}
+
+.product-wizerd .tab {
+    display: none;
+}
+
+.product-table {
+    min-height: 250px;
+}
+
+.user-index td {
+    padding: unset!important;
+}
+
+.form-group sup {
+    color: red;
+}

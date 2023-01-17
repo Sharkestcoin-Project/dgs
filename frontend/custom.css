@@ -1,0 +1,28 @@
+.is-invalid {
+    color: #EE2D41 !important;
+}
+
+label.required:after {
+    content:" *";
+    color:red;
+}
+label.optional:after {
+    content:" (optional)";
+    color: #6b6b6b;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    margin-right: 40px!important;
+    margin-top: 7px!important;
+}
+
+.jssocials-share-link {
+    font-size: 8px !important;
+}
+
+.form__input:focus+.form__label, .form__input:not(:placeholder-shown).form__input:not(:focus)+.form__label{
+    top: 0 !important;
+    color: #707070;
+    font-size: 10px;
+}
+
